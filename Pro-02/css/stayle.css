@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    text-transform: capitalize;
+    text-decoration: none;
+    outline: none;
+    padding: 0; margin: 0;
+    
+}
+
+
+header{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.nav{
+    width: 960px;
+    height: auto;
+    background: #5c5b5b;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+.nav ul li a{
+    display: block;
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    
+}
+.nav ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: #dfe5e7;
+}
+.nav ul li ul{
+    position: absolute;
+    background: #5c5b5b;
+    left: -9999px;
+}
+.nav ul li:hover ul{
+    left: 0px;
+}
+.nav ul li ul li{
+    width: 200px;
+    border-bottom: 1px solid #fff;
+}
+.cover{
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-logo img{
+     width: 320px;
+     height: auto;
+     margin: 0px 10px;
+     margin-bottom: 10px;
+     box-shadow: 0px 8px 10px 0px #000;
+}
+.about-logo img:hover{
+    transform: scale(.9);
+    transition: .5s;
+}
+.about-text{
+    width: 520px;
+    height: auto;
+    padding: 20px 20px;
+}
+.about-text h2{
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom:1px solid #fff ;
+    margin-bottom: 20px;
+    
+}
+.row{
+    overflow: auto;
+}
+.col{
+    float: left;
+}
+.about-section{
+    background: #DCE7E5;
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+.title{
+    width: 180px;
+    height: auto;
+    align-items: center;
+    margin: 0 auto;
+}
+.title h2{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.service{
+    width: 280px;
+    height: auto;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+.service h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.service p{
+    font-size: 15px;
+    color: grey;
+    line-height: 22px;
+    padding: 0px 15px;
+}
+.service-section{
+    background: #B7BBB2;
+    padding: 40px 0px;
+    margin-top: 20px;
+}
+.serv-icon i{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    transition: .5s;
+}
+.serv-icon i:hover{
+    color: yellow;
+    transform: scale(.8);
+}
+.contact{
+    
+    background: #fff;
+    padding: 15px 15px 15px 80px;
+    box-shadow: 0px 0px 10px #ccc;
+    width: 180px;
+    position: relative;
+    display: inline-block;
+    margin: 0px 8px;
+}
+.cont-icon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    float: left;
+    top: 8px;
+    left: 15px;
+    background: #222;
+    color: #fff;
+    line-height:50px;
+    font-size: 30px;
+    transition: .6s;
+    text-align: center;
+    border-radius: 50%;
+
+}
+.cont-icon i:hover{
+    color: yellow;
+    transform: scale(.9);
+    
+}
+.cont-text p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.contact-section{
+    background: #DCE7E5;
+    padding: 40px 0px;
+    margin-top: 20px;
+}
+.contact-form{
+    /* width: 620px;
+    height: auto; */
+    margin: 0px auto;
+    margin-top: 20px;
+    background: #DCE7E5;
+}
+.inputTag input{
+    font-size: 20px;
+    padding: 10px 10px;
+    width: 60%;
+    margin: 8px 0px;
+    margin-left: 150px;
+}
+.inputTag textarea{
+    width: 599px;
+    height: auto;
+    margin-left: 150px;
+}
+.inputTag button{
+    width: 63%;
+    padding: 10px 0px;
+    background: black;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-left: 150px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.inputTag button:hover{
+    background:#3a3a3a;
+    color: #77a5b4;
+    transform: scale(.9);
+    transition: .4s;
+}
+footer{
+    width: 960px;
+    margin: 0px auto;
+    height: auto;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0px;
+    
+}
+.footer-icon{
+    float: right;
+}
+.footer-icon i{
+    font-size: 30px;
+    padding: 6px 10px;
+    transition: .5s;
+}
+.footer-icon i:hover{
+    color: yellow;
+    transform: scale(.8);
+}
+.footer-text{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 20px;
+    display: inline-block;
+}

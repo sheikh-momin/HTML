@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Company</title>
+    
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- CSS stayle file --> 
+    <link rel="stylesheet" href="css/stayle.css">
+    <!-- script file -->
+    <script defer src="script.js"></script>
+
+</head>
+<body>
+
+    <!-- header section start -->
+    <header >
+        <div class="nav">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">protfolio</a>
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">bloge</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </div>
+        <div class="cover" style="background-image: url(img/cover.webp);"></div>
+         
+        <div class="about-section">
+            <div class="title">
+                <h2>about us</h2>
+           </div>
+            <div class="row">
+                <div class="col">
+                   <div class="about">
+                       <div class="about-logo">
+                          <img src="img/us.png" alt="">
+                       </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="about-text">
+                        <h2>
+                            Lorem ipsum dolor site
+                        </h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem repudiandae dolorem pariatur nemo expedita nostrum accusamus placeat non blanditiis fugit hic voluptates tempora sapiente,  quaerat eaque quod inventore eveniet. quisquam fuga maxime non voluptate odio repudiandae labore facere quas?</p>
+                    </div>
+                </div>
+               
+            </div>
+            
+        </div>
+        <div class="service-section">
+            <div class="title">
+                <h2>our service</h2>
+
+            </div>
+            <div class="service">
+                <div class="serv-icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <h3>web design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit molestiae in nesciunt aliquid nam repellat esse culpa sequi animi nisi?</p>
+            </div>
+            <div class="service">
+                <div class="serv-icon">
+                    <i class="fab fa-php"></i>
+                </div>
+                <h3>web development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit molestiae in nesciunt aliquid nam repellat esse culpa sequi animi nisi?</p>
+            </div>
+            <div class="service">
+                <div class="serv-icon">
+                    <i class="fab fa-android"></i>
+                </div>
+                <h3>apps development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit molestiae in nesciunt aliquid nam repellat esse culpa sequi animi nisi?</p>
+            </div>
+            <div class="service">
+                <div class="serv-icon">
+                    <i class="fab fa-wordpress"></i>
+                </div>
+                <h3>theme development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit molestiae in nesciunt aliquid nam repellat esse culpa sequi animi nisi?</p>
+            </div>
+            <div class="service">
+                <div class="serv-icon">
+                    <i class="fas fa-camera"></i>
+                </div>
+                <h3>photography</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit molestiae in nesciunt aliquid nam repellat esse culpa sequi animi nisi?</p>
+            </div>
+            <div class="service">
+                <div class="serv-icon">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <h3>branding</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit molestiae in nesciunt aliquid nam repellat esse culpa sequi animi nisi?</p>
+            </div>
+        </div>
+        <div class="contact-section">
+            <div class="title">
+                <h2>contact us</h2>
+
+            </div>
+            <div class="contact">
+                <div class="cont-icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="cont-text">
+                    <p>+8801794718666</p>
+                    <p>+8801841718666</p>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="cont-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="cont-text">
+                    <p>momin.emon14@gmail.com</p>
+                    <p>momin.emon17@gmail.com</p>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="cont-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="cont-text">
+                    <p>savar,dhaka</p>
+                    <p>1340 dhaka</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <form action="" class="form" id="form">
+                <div class="contact-form" onkeydown="validation()">
+                    <div class="inputTag"><input id="name" type="text" placeholder="Your Name" ></div>
+                    <div class="inputTag"><input id="email" type="text" placeholder="Your Email" ></div>
+                    <div class="inputTag"><input id="subject" type="text" placeholder="Your Subject" ></div>
+                    <div class="inputTag"><textarea name="" id="" cols="50" rows="20"></textarea></div> 
+                    <div class="inputTag"><button id="submit" class="submit">Submit</button></div>
+                </div>
+            </form>
+        </div>
+    </header>
+    <!-- header section end -->
+
+
+
+    <!-- start footer section -->
+    <footer>
+        <div class="footer-text">
+            <p>COPYRIGHT © 2022 BY Mominul Islam ALL RIGHT RESERVED</p>
+            <p>author: mominul islam</p>
+
+        </div>
+        <div class="footer-icon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+    </footer>
+    <!-- End footer section -->
+
+    <div id="error"></div>
+</body>
+</html>
